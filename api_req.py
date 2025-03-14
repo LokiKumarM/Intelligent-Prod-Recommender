@@ -6,7 +6,7 @@ def search_res(user_query):
       "engine": "google_shopping",
        "gl": "in",
       "q": user_query,
-      "api_key" :  "ybiC2seV9mCyRwCJp6gZBUQz"
+      "api_key" :  "YOUR_API_KEY"
     }
 
     response = requests.get(url, params = params)
